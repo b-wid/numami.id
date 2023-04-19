@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right, #FFE0B1, #FFF4E0, #FFDAA8);
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #f37223;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    font-family: 'Questrial', sans-serif;
+    color: #CD104D;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #f37223;
+    opacity: 1;
+}
+
+/*************************************** CONTAINER STYLE ***************************************/
+
+.top-container {
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+}
+
+.intro-subcontainer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.floating-row {
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    margin-bottom: 0;
+
+}
+
+.bottom-container {
+    padding: 10px 0 30px 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+}
+
+/*************************************** ITEMS STYLE ***************************************/
+
+.name-logo {
+    width: 350px;
+}
+
+.intro-name {
+    color: #f37223;
+    font-size: 24px;
+    margin: 8px;
+}
+
+.menu-img {
+    width:100%;
+    max-width: 500px;
+    font-size: 0;
+}
+
+.instagram-details {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.whatsapp-details {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.order-text {
+    display: inline-block;
+}
+
+.menu-text {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contact-text {
+    display: inline-block;
+}
+
+/*************************************** BUTTONS ***************************************/
+
+.btn {
+    width: 100%
+  background: #CD104D;
+  background-image: -webkit-linear-gradient(top, #CD104D, #E14D2A);
+  background-image: -moz-linear-gradient(top, #CD104D, #E14D2A);
+  background-image: -ms-linear-gradient(top, #CD104D, #E14D2A);
+  background-image: -o-linear-gradient(top, #CD104D, #E14D2A);
+  background-image: linear-gradient(to bottom, #CD104D, #E14D2A);
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Questrial', sans-serif;  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #E14D2A;
+  background-image: -webkit-linear-gradient(top, #E14D2A, #FD841F);
+  background-image: -moz-linear-gradient(top, #E14D2A, #FD841F);
+  background-image: -ms-linear-gradient(top, #E14D2A, #FD841F);
+  background-image: -o-linear-gradient(top, #E14D2A, #FD841F);
+  background-image: linear-gradient(to bottom, #E14D2A, #FD841F);
+  text-decoration: none;
+}
+
+.nav-link {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
